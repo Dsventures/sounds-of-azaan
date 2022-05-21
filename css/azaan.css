@@ -1,0 +1,54 @@
+.tv9-interactives{
+    /* background-color: #add8d7; */
+    margin-top:50px;
+}
+
+.section {
+    text-align: center;
+    font-size: 3em;
+}
+
+#azaanCover{
+    background-image: url("../img/cover-bg.jpg");
+    /* height: 100%; */
+    height: calc(100% - 100px);
+    width: 100%;
+    /* background-size: 30%; */
+    background-size: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+}
+
+.cover-content{
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    min-height: 225px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cover-content h1{
+    font-family: 'Sketsa Ramadhan Alternates';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+    width: 70%;
+    margin: 0 auto 20px;
+    line-height: 60px;
+}
+.cover-content p{
+    font-size: 20px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.body-copy{
+    font-size: 18px;
+}
+
+.map-content{
+    margin: 20px;
+}
