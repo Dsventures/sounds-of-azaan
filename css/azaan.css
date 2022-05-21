@@ -31,6 +31,7 @@
     min-height: 225px;
     top: 50%;
     left: 50%;
+    margin-top: -100px;
     transform: translate(-50%, -50%);
 }
 .cover-content h1{
@@ -53,7 +54,7 @@
 }
 
 .map-content{
-    margin: 20px;
+    margin: -200px 20px 0 20px;
 }
 
 .disclaimer {
