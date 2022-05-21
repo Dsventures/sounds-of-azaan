@@ -2,6 +2,9 @@
     /* background-color: #add8d7; */
     margin-top:50px;
 }
+.tv9-interactives p.body-copy{
+    font-family: 'Georama', sans-serif; line-height: 17px; font-size: 14px;
+}
 
 .section {
     text-align: center;
@@ -51,4 +54,8 @@
 
 .map-content{
     margin: 20px;
+}
+
+.disclaimer {
+    font-family: 'Georama', sans-serif; font-size: 12px; margin-top: -10px; display: block;
 }
