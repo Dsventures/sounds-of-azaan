@@ -14,9 +14,9 @@
 #azaanCover{
     background-image: url("../img/cover-bg.jpg");
     /* height: 100%; */
-    height: calc(100% - 30px);
+    height: calc(100% - 50px);
     width: 100%;
-    /* background-size: 30%; */
+    margin-top: -50px;
     background-size: 100%;
     position: absolute;
     top: 50%;
