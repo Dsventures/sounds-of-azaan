@@ -1,9 +1,10 @@
 @font-face {
     font-family: 'Sketsa-Ramadhan-Alternates';
-    src: url("https: //dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.eot");
-    src: url("https: //dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.woff") format("woff"),
-        url("https: //dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.otf") format("opentype"),
-        url("https: //dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.svg#filename") format("svg");
+    src: url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.eot");
+    src: url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.woff") format("woff"),
+    url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.woff2") format("woff2"),
+        url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.otf") format("opentype"),
+        url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.svg#filename") format("svg");
 }
 
 
