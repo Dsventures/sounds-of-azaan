@@ -75,8 +75,66 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .disclaimer {
     font-family: 'Georama', sans-serif; font-size: 11px; margin-top: -10px; display: block;
+}
+
+#cityName, #stateName, .modelbox__content{
+    color:#fff;
+}
+#cityName{
+        font-family: 'Sketsa-Ramadhan-Alternates';
+            margin: 0 0 -5px 0;
+            font-size: 40px;
+            line-height: 45px;
+            letter-spacing: 3px;
+            font-weight: 600;
+} 
+
+#stateName{
+    font-family: 'Georama', sans-serif;
+        font-size: 25px;
+            margin: 0 0 10px 0;
+}
+.audio__cover{
+    width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        background-color: #1abc9c;
+        margin: 0 auto 20px auto;
+}
+.modelbox__container{
+    padding: 20px;
+}
+.modelbox__content{
+    font-family: 'Georama', sans-serif;
+    font-size: 12px;
+}
+
+.audio__player{
+        display: flex;
+            column-gap: 15px;
+            text-align: left;
+}
+.audio__player button{
+    background-color: #000;
+        color: #fff;
+        outline: none;
+        border: none;
+        font-size: 24px;
+}
+
+#closeBtn{
+        width: 30px;
+            height: 30px;
+            background-color: #666;
+            border-radius: 50%;
+            border: none;
+            color: #fff;
+            position: absolute;
+            top: 15px;
+            right: 15px;
 }

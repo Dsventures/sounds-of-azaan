@@ -51,10 +51,22 @@
               everyday life within which it is embedded.
             </p>
 
-            <div class="modelbox" style="display: none">
+            <div class="modelbox" style="display: block">
               <div class="modelbox__container">
                 <button id="closeBtn">X</button>
-                <!-- <h3>Ahmedabad</h3>
+                <div class="audio__cover"></div>
+                <div class="audio__player">
+                  <div class="audio__title">
+                    <h3 id="cityName">Murshidabad</h3>
+                    <p id="stateName">Gujarat</p>
+                  </div>
+                  <button id="playAudio" onclick="playPause()">&#9658;</button>
+                  <button id="resetAudio" onclick="stop()">&#9611;</button>
+                </div>
+                <audio id="audio">
+                  <source src="sound/Murshidabad.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+                </audio>
                 <p class="modelbox__content">
                   "Come to prayer. Rise up to your welfare!" And in the last
                   hours of darkness just before dawn: "Come to prayer. Rise up
@@ -63,7 +75,7 @@
                   who were fasting grab a quick bite and rush to offer the
                   evening prayer when they hear the azaan, a few wait for the
                   azaan, to pray before they break their fast.
-                </p> -->
+                </p>
               </div>
             </div>
 
@@ -581,8 +593,9 @@
         </div>
       </div>
     </div>
-    <script src="https://gist.github.com/c-kick/2d717790aadd3aa86884ee0b07c3119f.js"></script>
-    <script src="https://unpkg.com/fullpage.js/dist/fullpage.min.js"></script>
+    <!-- <script src="https://gist.github.com/c-kick/2d717790aadd3aa86884ee0b07c3119f.js"></script> -->
+    <!-- <script src="https://unpkg.com/fullpage.js/dist/fullpage.min.js"></script> -->
+    <script src="js/fullpage.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
