@@ -117,7 +117,7 @@
 .audio__player{
         display: flex;
             column-gap: 15px;
-            text-align: left;
+            text-align: left;justify-content: space-between;
 }
 .audio__player button{
     background-color: #000;
@@ -138,3 +138,15 @@
             top: 15px;
             right: 15px;
 }
+.progress_bar{
+    height: 6px;
+    width: 300px;
+    background-color: #AAA;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+.progressed{
+    height: 6px;
+    background-color: #f80;
+    width: 0%;
+    transition: .1s width;

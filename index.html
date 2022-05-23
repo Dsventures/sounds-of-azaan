@@ -13,13 +13,6 @@
       href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link -->
-    <!-- rel="preload"
-      href="font/SketsaRamadhanAlternates.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    /> -->
     <link
       rel="stylesheet"
       href="https://raw.githubusercontent.com/eunicedhivya/james-webb-telescope/master/css/common.css"
@@ -51,17 +44,20 @@
               everyday life within which it is embedded.
             </p>
 
-            <div class="modelbox" style="display: block">
+            <div class="modelbox" style="display: none">
               <div class="modelbox__container">
                 <button id="closeBtn">X</button>
                 <div class="audio__cover"></div>
+                <div class="progress_bar">
+                  <div class="progressed" id="progressed"></div>
+                </div>
                 <div class="audio__player">
                   <div class="audio__title">
                     <h3 id="cityName">Murshidabad</h3>
                     <p id="stateName">Gujarat</p>
                   </div>
                   <button id="playAudio" onclick="playPause()">&#9658;</button>
-                  <button id="resetAudio" onclick="stop()">&#9611;</button>
+                  <!-- <button id="resetAudio" onclick="stop()">&#9611;</button> -->
                 </div>
                 <audio id="audio">
                   <source src="sound/Murshidabad.mp3" type="audio/mpeg" />
@@ -263,7 +259,7 @@
               >
                 Arabian sea
               </text>
-              <g class="cities" id="kochi">
+              <g class="cities" id="Kochi">
                 <text
                   transform="matrix(1 0 0 1 206.4841 1153.3301)"
                   class="st5 st6"
@@ -287,7 +283,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="tenkasi">
+              <g class="cities" id="Tenkasi">
                 <text
                   transform="matrix(1 0 0 1 490.1999 1174.7981)"
                   class="st5 st6"
@@ -318,7 +314,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="chennai">
+              <g class="cities" id="Chennai">
                 <text
                   transform="matrix(1 0 0 1 470.3381 1082.9999)"
                   class="st5 st6"
@@ -342,7 +338,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="hyderabad">
+              <g class="cities" id="Hyderabad">
                 <text
                   transform="matrix(1 0 0 1 438.2912 814.2894)"
                   class="st5 st6"
@@ -366,7 +362,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="mumbai">
+              <g class="cities" id="Mumbai">
                 <text
                   transform="matrix(1 0 0 1 201.4772 749.6403)"
                   class="st5 st6"
@@ -390,7 +386,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="ahmedabad">
+              <g class="cities" id="Ahmedabad">
                 <text
                   transform="matrix(1 0 0 1 208.5217 618.4487)"
                   class="st5 st6"
@@ -414,7 +410,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="jaipur">
+              <g class="cities" id="Jaipur">
                 <text
                   transform="matrix(1 0 0 1 174.2626 476.2912)"
                   class="st5 st6"
@@ -438,7 +434,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="delhi">
+              <g class="cities" id="Delhi">
                 <text
                   transform="matrix(1 0 0 1 332.8388 359.2002)"
                   class="st5 st6"
@@ -462,7 +458,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="lucknow">
+              <g class="cities" id="Lucknow">
                 <text
                   transform="matrix(1 0 0 1 522.1962 483.6672)"
                   class="st5 st6"
@@ -486,7 +482,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="murshidabad">
+              <g class="cities" id="Murshidabad">
                 <text
                   transform="matrix(1 0 0 1 570.2645 603.9459)"
                   class="st5 st6"
@@ -510,7 +506,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="kolkata">
+              <g class="cities" id="Kolkata">
                 <text
                   transform="matrix(1 0 0 1 758.8294 749.6401)"
                   class="st5 st6"
@@ -535,7 +531,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="guwahati">
+              <g class="cities" id="Guwahati">
                 <text
                   transform="matrix(1 0 0 1 826.0505 457.6213)"
                   class="st5 st6"
@@ -559,7 +555,7 @@
                   </g>
                 </g>
               </g>
-              <g class="cities" id="srinagar">
+              <g class="cities" id="Srinagar">
                 <text
                   transform="matrix(1 0 0 1 312.6159 177.575)"
                   class="st5 st6"
