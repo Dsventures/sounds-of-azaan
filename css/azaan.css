@@ -63,7 +63,7 @@
 }
 
 .map-content{
-    margin: -200px 20px 0 20px;
+    margin: 0 20px 0 20px;
 }
 
 .modelbox{
@@ -150,3 +150,4 @@
     background-color: #f80;
     width: 0%;
     transition: .1s width;
+}
