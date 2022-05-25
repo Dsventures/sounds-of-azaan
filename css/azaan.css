@@ -34,10 +34,10 @@
     top: 40px; right: 0;
 }
 .fourcorners img:nth-child(3){
-    bottom: 40px; left: 0;
+    bottom: 10px; left: 0;
 }
 .fourcorners img:last-child{
-    bottom: 40px; right: 0;
+    bottom: 10px; right: 0;
 }
 
 .tv9-interactives p.body-copy{
