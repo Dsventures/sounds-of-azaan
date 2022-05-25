@@ -28,16 +28,16 @@
     width: 40%; position: absolute;
 }
 .fourcorners img:first-child{
-    top: 0; left: 0;
+    top: 40px; left: 0;
 }
 .fourcorners img:nth-child(2){
-    top: 0; right: 0;
+    top: 40px; right: 0;
 }
 .fourcorners img:nth-child(3){
-    bottom: 0; left: 0;
+    bottom: 40px; left: 0;
 }
 .fourcorners img:last-child{
-    bottom: 0; right: 0;
+    bottom: 40px; right: 0;
 }
 
 .tv9-interactives p.body-copy{
