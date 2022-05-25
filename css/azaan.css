@@ -76,6 +76,7 @@
     transform: translate(-50%, -50%);
     border-radius: 20px;
     box-sizing: border-box;
+    margin-top: -100px;
 }
 
 .disclaimer {
