@@ -22,6 +22,7 @@
     height: 100%;
     position: absolute;
     z-index: 2;
+    margin-top: -100px;
 }
 .fourcorners img{
     width: 40%; position: absolute;
