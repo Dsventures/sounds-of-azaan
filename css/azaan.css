@@ -110,7 +110,11 @@
 }
 
 .disclaimer {
-    font-family: 'Georama', sans-serif; font-size: 11px; margin-top: -10px; display: block;
+        font-family: 'Georama', sans-serif;
+            font-size: 11px;
+            margin-top: 0;
+            display: block;
+            line-height: 12px;
 }
 
 #cityName, #stateName, .modelbox__content{
@@ -162,6 +166,11 @@
         outline: none;
         border: none;
         font-size: 24px;
+}
+
+.tv9-interactives .map-content p.body-copy{
+    width: 70%;
+    margin: 0 auto;
 }
 
 #closeBtn{
