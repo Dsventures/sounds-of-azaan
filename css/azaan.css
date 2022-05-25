@@ -111,8 +111,10 @@
     padding: 20px;
 }
 .modelbox__content{
-    font-family: 'Georama', sans-serif;
-    font-size: 12px;
+        font-family: 'Georama', sans-serif;
+            font-size: 12px;
+            height: 125px;
+            overflow-y: scroll;
 }
 
 .audio__player{
