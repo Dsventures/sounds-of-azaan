@@ -17,6 +17,10 @@
     background-size: 45%;
 }
 
+.section:nth-child(2) .fourcorners{
+    top: 0;
+}
+
 .fourcorners{
     width: 100%;
     height: 100%;
