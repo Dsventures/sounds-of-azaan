@@ -12,7 +12,8 @@ for (var i = 0; i < cities.length; i++) {
   cities[i].addEventListener("click", function (e) {
     console.log(this.id);
     cityName.innerHTML = this.id;
-    audio.src = "sound/" + this.id + ".mp3";
+    audio.src =
+      "https://dsventures.github.io/sounds-of-azaan/sound/" + this.id + ".mp3";
     document.getElementsByClassName("modelbox")[0].style.display = "block";
     playPause();
   });
