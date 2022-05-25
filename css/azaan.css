@@ -117,6 +117,10 @@
             overflow-y: scroll;
 }
 
+.modelbox__content, .modelbox__content p{
+    color: #fff;
+}
+
 .audio__player{
         display: flex;
             column-gap: 15px;
