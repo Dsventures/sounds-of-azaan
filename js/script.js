@@ -16,6 +16,8 @@ for (var i = 0; i < cities.length; i++) {
       "https://dsventures.github.io/sounds-of-azaan/sound/" + this.id + ".mp3";
     document.getElementsByClassName("modelbox__content")[0].innerHTML =
       dataset[this.id]["desc"];
+    document.getElementsByClassName("audio__cover")[0].innerHTML =
+      "<img src='img/urdu/" + this.id + "-01.png' style='width:100%' />";
     document.getElementsByClassName("modelbox")[0].style.display = "block";
     playPause();
   });

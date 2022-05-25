@@ -105,7 +105,7 @@
 .modelbox{
     position: absolute;
     min-height: 480px;
-    background-color: rgba(0, 0, 0, .98);
+    background-color: rgba(0, 0, 0, .8);
     width: 90%;
     top: 50%;
     left: 50%;
@@ -136,9 +136,11 @@
 } 
 
 #stateName{
-    font-family: 'Georama', sans-serif;
-        font-size: 25px;
-            margin: 0 0 10px 0;
+        font-family: 'Georama', sans-serif;
+            font-size: 18px;
+            margin: 10px 0 10px 0;
+            color: #8f8f8f;
+            text-transform: uppercase;
 }
 .audio__cover{
     width: 180px;
