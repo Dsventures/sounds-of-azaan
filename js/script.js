@@ -26,6 +26,8 @@ for (var i = 0; i < cities.length; i++) {
 }
 document.getElementById("closeBtn").addEventListener("click", function () {
   document.getElementsByClassName("modelbox")[0].style.display = "none";
+  document.getElementById("indiaMap").style.transform =
+    "scale(1) translate(0, 0)";
   stop();
 });
 
