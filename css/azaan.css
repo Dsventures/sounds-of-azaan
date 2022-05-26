@@ -113,6 +113,7 @@
     border-radius: 20px;
     box-sizing: border-box;
     margin-top: -50px;
+    z-index: 5;
 }
 
 .disclaimer {
@@ -172,7 +173,7 @@
             text-align: left;justify-content: space-between;
 }
 .audio__player button{
-    background-color: #000;
+    background-color: transparent;
         color: #fff;
         outline: none;
         border: none;
@@ -208,4 +209,8 @@
     width: 0%;
     transition: .1s width;
     border-radius: 10px;
+}
+
+#indiaMap{
+    transition: .4s all;
 }
