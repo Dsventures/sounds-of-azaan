@@ -64,7 +64,7 @@
     top: 50%;
     left: 50%;
     transform:translate(-50%, -50%);
-    z-index: 1;
+    z-index: 0;
 }
 
 .cover-content{
@@ -104,16 +104,17 @@
 
 .modelbox{
     position: absolute;
-    min-height: 480px;
-    background-color: rgba(0, 0, 0, .8);
-    width: 90%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-    box-sizing: border-box;
-    margin-top: -50px;
-    z-index: 5;
+        min-height: 480px;
+        background-color: rgba(0, 0, 0, .8);
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        box-sizing: border-box;
+        margin-top: -50px;
+        z-index: 5;
+        margin-left: 31px;
 }
 
 .disclaimer {
