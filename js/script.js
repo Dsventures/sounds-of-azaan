@@ -17,7 +17,9 @@ for (var i = 0; i < cities.length; i++) {
     document.getElementsByClassName("modelbox__content")[0].innerHTML =
       dataset[this.id]["desc"];
     document.getElementsByClassName("audio__cover")[0].innerHTML =
-      "<img src='img/urdu/" + this.id + "-01.png' style='width:100%' />";
+      "<img src='https://dsventures.github.io/sounds-of-azaan/img/urdu/" +
+      this.id +
+      "-01.png' style='width:100%' />";
     document.getElementById("indiaMap").style.transform =
       dataset[this.id]["zoom"];
     document.getElementsByClassName("modelbox")[0].style.display = "block";
