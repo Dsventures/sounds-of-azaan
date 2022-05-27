@@ -28,7 +28,7 @@
 }
 
 .section:nth-child(1) .fourcorners {
-    top: 61px; height: calc(100% - 81px);
+    top: 61px; height: calc(100% - 65px);
 }
 .section:nth-child(2) .fourcorners {
     top: 0; height: 100%;
@@ -117,7 +117,7 @@
         transform: translate(-50%, -50%);
         border-radius: 20px;
         box-sizing: border-box;
-        margin-top: -50px;
+        margin-top: -20px;
         z-index: 5;
         margin-left: 31px;
 }
