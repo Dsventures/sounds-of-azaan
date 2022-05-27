@@ -11,6 +11,10 @@ var playPauseBtn = document.getElementById("playAudio");
 for (var i = 0; i < cities.length; i++) {
   cities[i].addEventListener("click", function (e) {
     console.log(dataset[this.id]);
+    for (var j = 0; j < cities.length; j++) {
+      cities[j].style.display = "none";
+    }
+    this.style.display = "block";
     cityName.innerHTML = this.id;
     stateName.innerHTML = dataset[this.id]["state"];
     audio.src =
@@ -28,6 +32,9 @@ for (var i = 0; i < cities.length; i++) {
   });
 }
 document.getElementById("closeBtn").addEventListener("click", function () {
+  for (var j = 0; j < cities.length; j++) {
+    cities[j].style.display = "block";
+  }
   document.getElementsByClassName("modelbox")[0].style.display = "none";
   document.getElementById("indiaMap").style.transform =
     "scale(1) translate(0, 0)";
@@ -74,7 +81,7 @@ var dataset = {
   },
   Lucknow: {
     state: "Uttar Pradesh",
-    zoom: "scale(2.5) translate(-41px, 7px)",
+    zoom: "scale(2) translate(-58px, 7px)",
     desc: "<p>is shahr-e-ḳhuftgāñ meñ koī to azaan de aisā na ho zamīñ kā javāb āsmān de </p><p>Himayat Ali Shayar' sher tells us how azaan keeps a human settlement alive. I grew up in a mosque compound. The muezzins of this mosque kept changing. It was earlier Achchan Dada. A tall, thin, man with the whitest beard I have ever seen who would softly whisper into the microphone. When there was a power cut, he would step out into the 'sehen' , put both his hands on his ears and give the azaan. Then came Raju, who made a few errors here and there, but his sincerity was incredible during Ramzan. Neither of them is now alive. The baton has been passed on. The azaan for the day is given by these two young boys alternatively and that of the morning by Huzuri chacha. I love Huzuri chacha's azaan. It is the shortest. When as children we kept rozas and had to break the fast after azaan, we would impatiently pray that Huzuri chacha gives the azaan, cause his azaan was the shortest! Very unlike Izhar sahab's, long and loud, as if he was giving it in my own house. When he was ill and couldn't come to the mosques, we missed his voice. I remember the day when we heard him again on Fajr and felt a sense of relief and familiarity and knew that he is finally ok. That somehow became the parameter. When I lived in Pune, far away from home. I had to wrap my head around a new routine according to the clock cause mine was according to the azaan!</p><p>I would stand in the balcony at the meeting of times, at maghrib, and force my ears to be able to hear even one word of azaan that the wind might have carried on its palm. My heart craved to hear that sound. I felt un-belonged and alone but that sound just made me feel at home. The sound of home is the sound of azaan. I wish there weren't attacks on this sense of home. y morning was interspersed with azaan and a distant sound of a Bhajan. I share the wind that carried these sounds with people from all religions that lived in my area. I wish my friends who aren't Muslims but have memories of azaan that they keep sharing with me at different points, tell us and share. I have a lot to say, but, I want to listen to their stories now. The sky and the wind is shared. I hope my friends fight to let us keep our share.</p>",
   },
   Ahmedabad: {
@@ -84,7 +91,7 @@ var dataset = {
   },
   Srinagar: {
     state: "Jammu and Kashmir",
-    zoom: "scale(2.5) translate(20px, 100px)",
+    zoom: "scale(2) translate(4px, 72px)",
     desc: "<p>The Doppler effect can be seen nowhere better than on an evening Srinagar road around the time of the Maghreb prayers. Those heading home, buzz past empty streets. If one didn't know better, one would imagine a desolation was underway. The scarce few who are out on the roads around the time of the evening prayer, bear witness to the last cars heading home — cars which have the air of rushed-last-cars about them. The call to prayer begins from one mosque to another, and then from a hundred mosques all at once.</p><p>During the month of Ramzan/Ramadan, the loudspeakers compete for the sound of the prayer. Like a Venn diagram with subsets trying to overlay each other, sounds from different mosques overlap into competitively larger concentric circles. As one drives through downtown Srinagar, one never goes a second without hearing it. </p><p>A faint mumble from a distant loudspeaker turns into a loud whisper and then a blaring chant as you move closer; and then back to a faint whisper, only muffled by the sound of the next loudspeaker directly ahead, or directly behind, or literally anywhere around you. Technically, one is always floating in a sea of azaan coming from all the corners of the city. With the people and their cars having headed home, a footstep in the distance echoes across the bare-brick walls of old city buildings and hits you in the face like a flush of air. Everyone is home just in time for iftaar. or they are seen trying. One prefers to make the last drive home, finding empty roads and prayers coming from every mosque in the valley.</p><p>At the effervescent Dal, the silence of the downtown twilight is filled with the sounds of lapping waves of water, hurried pedestrian walks, and resonating azaan bouncing over the otherwise still waters of the Dal, set into motion only by the gush of early evening winds.</p>",
   },
   Guwahati: {
@@ -99,7 +106,7 @@ var dataset = {
   },
   Delhi: {
     state: "Union Territory",
-    zoom: "scale(2.5) translate(6px, 67px)",
+    zoom: "scale(2) translate(-8px, 67px)",
     desc: "<p>A very prominent feature about the place where I live is its closeness to a local mosque. I get to hear the azaan echoing through our neighbourhood five times a day. The call to prayer reverberates through the surroundings, enveloping everyone nearby in its soul-stirring sound. People going about their business, children playing in the park, cars stuck in the traffic jam, vendors walking on the streets — it reaches them all equally, perhaps reminding us that we are all indeed one.</p><p>As I went to Chandni Chowk this Ramzan, I stood observing the Sunehri Masjid and the beautiful Gurudwara Sis Ganj Sahib located close by. At the time of dusk, I heard the azaan issuing forth from the mosque with soothing hymns of the gurbani being sung at the gurudwara. The calming ambience created by the twin spiritual reminders leaves its mark on everyone around. Muslims hurry to pray. Sikhs enter the gurudwara to join in the kirtan. People of different faiths peacefully intermingle, help one another, share daily struggles and even pray together.</p><p>Coexisting with harmony can be seen not only in the two places of worship standing tall next to one another, but also in the effect it has on people here. Near the gurudwara, people feed the poor, hungry travellers, passers-by, young and old, rich and poor, whoever joins the queue. What brings people together here is their common humanity. Nobody will ask your name or where you are from. They will help you because you are in the precincts of the House of God, before whom all are equal, be it that rickshaw puller down the lane, the person on the street, or the worshippers at the mosque and the gurudwara.</p><p>The azaan and gurbani contain the message of God being great. What God calls you toward is greater than what you are involved in. Leave your divisions behind and come to stand united before your Lord. Detach yourselves from worldly concerns for some time, seek forgiveness for your wrongs, pray for that person you may have harmed intentionally or unintentionally and invite God's blessings on humanity.</p><p>The call to God instills a sense of peace. It turns us away from petty issues and refocuses our mind on what is important.</p>",
   },
   Kolkata: {
