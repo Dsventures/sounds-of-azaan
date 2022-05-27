@@ -1,279 +1,309 @@
 @font-face {
-    font-family: 'Sketsa-Ramadhan-Alternates';
-    src: url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.eot");
-    src: url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.woff") format("woff"),
-    url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.woff2") format("woff2"),
-        url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.otf") format("opentype"),
-        url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.svg#filename") format("svg");
+  font-family: "Sketsa-Ramadhan-Alternates";
+  src: url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.eot");
+  src: url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.woff")
+      format("woff"),
+    url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.woff2")
+      format("woff2"),
+    url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.otf")
+      format("opentype"),
+    url("https://dsventures.github.io/sounds-of-azaan/font/Sketsa-Ramadhan-Alternates.svg#filename")
+      format("svg");
 }
 
-
-.tv9-interactives .section{
-    position: relative;
-    /* background-image: url("../img/top-left.png"), url("../img/top-right.png"), url("../img/bottom-left.png"), url("../img/bottom-right.png");
+.tv9-interactives .section {
+  position: relative;
+  /* background-image: url("../img/top-left.png"), url("../img/top-right.png"), url("../img/bottom-left.png"), url("../img/bottom-right.png");
     background-position: left top, right top, bottom left, right bottom; */
-    background-color: #add8d7;
-    background-repeat: no-repeat;
-    background-size: 45%;
+  background-color: #add8d7;
+  background-repeat: no-repeat;
+  background-size: 45%;
 }
 
-
-
-.fourcorners{
-    width: 100%;
-    /* height: 100%; */
-    position: absolute;
-    z-index: 1;
-    margin-top: -100px;
+.fourcorners {
+  width: 100%;
+  /* height: 100%; */
+  position: absolute;
+  z-index: 1;
+  margin-top: -100px;
 }
 
 .section:nth-child(1) .fourcorners {
-    top: 61px; height: calc(100% - 65px);
+  top: 61px;
+  height: calc(100% - 65px);
 }
 .section:nth-child(2) .fourcorners {
-    top: 0; height: 100%;
+  top: 0;
+  height: 100%;
 }
-.fourcorners img{
-    width: 40%; position: absolute;
+.fourcorners img {
+  width: 40%;
+  position: absolute;
 }
-.fourcorners img:first-child{
-    top: 40px; left: 0;
+.fourcorners img:first-child {
+  top: 40px;
+  left: 0;
 }
-.fourcorners img:nth-child(2){
-    top: 40px; right: 0;
+.fourcorners img:nth-child(2) {
+  top: 40px;
+  right: 0;
 }
-.fourcorners img:nth-child(3){
-    bottom:0px; left: 0;
+.fourcorners img:nth-child(3) {
+  bottom: 0px;
+  left: 0;
 }
-.fourcorners img:last-child{
-    bottom: 0px; right: 0;
+.fourcorners img:last-child {
+  bottom: 0px;
+  right: 0;
 }
 
-.tv9-interactives p.body-copy{
-    font-family: 'Georama', sans-serif; line-height: 17px; font-size: 12px;
+.tv9-interactives p.body-copy {
+  font-family: "Georama", sans-serif;
+  line-height: 17px;
+  font-size: 12px;
 }
 
 .section {
-    text-align: center;
-    font-size: 3em;
+  text-align: center;
+  font-size: 3em;
 }
 
-#azaanCover{
-    background-image: url("../img/cover-bg.jpg");
-    /* height: 100%; */
-    height: calc(100% - 100px);
-    width: 100%;
-    margin-top: -50px;
-    background-size: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%);
-    z-index: 0;
+#azaanCover {
+  background-image: url("../img/cover-bg.jpg");
+  /* height: 100%; */
+  height: calc(100% - 100px);
+  width: 100%;
+  margin-top: -50px;
+  background-size: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
 }
 
-.cover-content{
-    position: absolute;
-    z-index: 2;
-    width: 80%;
-    min-height: 225px;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    transform: translate(-50%, -50%);
+.cover-content {
+  position: absolute;
+  z-index: 2;
+  width: 80%;
+  min-height: 225px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  transform: translate(-50%, -50%);
 }
-.cover-content h1{
-    font-family: "Sketsa-Ramadhan-Alternates";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 60px;
-    width: 70%;
-    margin: 0 auto 20px;
-    line-height: 60px;
+.cover-content h1 {
+  font-family: "Sketsa-Ramadhan-Alternates";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60px;
+  width: 70%;
+  margin: 0 auto 20px;
+  line-height: 60px;
 }
-.cover-content p{
-    font-size: 20px;
-    width: 85%;
-    margin: 0 auto;
-}
-
-.body-copy{
-    font-size: 18px;
+.cover-content p {
+  font-size: 20px;
+  width: 85%;
+  margin: 0 auto;
 }
 
-.map-content{
-    margin: 20px 20px 0 20px;
-        position: relative;
-        z-index: 2;
+.body-copy {
+  font-size: 18px;
 }
 
-.modelbox{
-    position: absolute;
-        min-height: 480px;
-        background-color: rgba(0, 0, 0, .8);
-        width: 75%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 20px;
-        box-sizing: border-box;
-        margin-top: -100px;
-        z-index: 5;
-        margin-left: 31px;
+.map-content {
+  margin: 20px 20px 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.modelbox {
+  position: absolute;
+  min-height: 480px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: -100px;
+  z-index: 5;
+  margin-left: 31px;
 }
 
 .disclaimer {
-        font-family: 'Georama', sans-serif;
-            font-size: 11px;
-            margin-top: 0;
-            display: block;
-            line-height: 12px;
+  font-family: "Georama", sans-serif;
+  font-size: 11px;
+  margin-top: 0;
+  display: block;
+  line-height: 12px;
 }
 
-#cityName, #stateName, .modelbox__content{
-    color:#fff;
+#cityName,
+#stateName,
+.modelbox__content {
+  color: #fff;
 }
-#cityName{
-        font-family: 'Sketsa-Ramadhan-Alternates';
-            margin: 0 0 -5px 0;
-            font-size: 40px;
-            line-height: 45px;
-            letter-spacing: 0;
-            font-weight: 500;
-} 
-
-#stateName{
-        font-family: 'Georama', sans-serif;
-            font-size: 15px;
-            margin: 10px 0 10px 0;
-            color: #8f8f8f;
-            text-transform: uppercase;
-}
-.audio__cover{
-    width: 180px;
-        height: 180px;
-        border-radius: 50%;
-        background-color: #1abc9c;
-        margin: 0 auto 20px auto;
-}
-.modelbox__container{
-    padding: 20px;
-}
-.modelbox__content{
-        font-family: 'Georama', sans-serif;
-            font-size: 12px;
-            height: 125px;
-            overflow-y: scroll;
+#cityName {
+  font-family: "Sketsa-Ramadhan-Alternates";
+  margin: 0 0 -5px 0;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0;
+  font-weight: 500;
 }
 
-.modelbox__content, .modelbox__content p{
-    color: #fff;
-        text-align: left;
-        line-height: 16px;
-        padding-right: 5px;
+#stateName {
+  font-family: "Georama", sans-serif;
+  font-size: 15px;
+  margin: 10px 0 10px 0;
+  color: #8f8f8f;
+  text-transform: uppercase;
+}
+.audio__cover {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: #1abc9c;
+  margin: 0 auto 20px auto;
+}
+.modelbox__container {
+  padding: 20px;
+}
+.modelbox__content {
+  font-family: "Georama", sans-serif;
+  font-size: 12px;
+  height: 125px;
+  overflow-y: scroll;
+}
+
+.modelbox__content,
+.modelbox__content p {
+  color: #fff;
+  text-align: left;
+  line-height: 16px;
+  padding-right: 5px;
 }
 
 .modelbox__content::-webkit-scrollbar {
-    width: 5px;
+  width: 5px;
 }
 
 /* Track */
 .modelbox__content::-webkit-scrollbar-track {
-    background: #f1f1f1;
+  background: #f1f1f1;
 }
 
 /* Handle */
 .modelbox__content::-webkit-scrollbar-thumb {
-    background: #888;
+  background: #888;
 }
 
 /* Handle on hover */
 .modelbox__content::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  background: #555;
 }
 
-.audio__player{
-        display: flex;
-            column-gap: 15px;
-            text-align: left;justify-content: space-between;
+.audio__player {
+  display: flex;
+  column-gap: 15px;
+  text-align: left;
+  justify-content: space-between;
 }
-.audio__player button{
-    background-color: transparent;
-        color: #fff;
-        outline: none;
-        border: none;
-        font-size: 24px;
-}
-
-.tv9-interactives .map-content p.body-copy{
-    width: 65%;
-    margin: 0 auto;
-}
-.tv9-interactives .map-content p.body-copy:nth-child(2){
-    width: 90%;
-    margin: 0 auto;
+.audio__player button {
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 24px;
 }
 
-#closeBtn{
-        width: 30px;
-            height: 30px;
-            background-color: #666;
-            border-radius: 50%;
-            border: none;
-            color: #fff;
-            position: absolute;
-            top: 15px;
-            right: 15px;
+.tv9-interactives .map-content p.body-copy {
+  width: 65%;
+  margin: 0 auto;
 }
-.progress_bar{
-    height: 6px;
-    width: 100%;
-    background-color: #AAA;
-    margin: 10px 0;
-    border-radius: 10px;
-}
-.progressed{
-    height: 6px;
-    background-color: #f80;
-    width: 0%;
-    transition: .1s width;
-    border-radius: 10px;
+.tv9-interactives .map-content p.body-copy:nth-child(2) {
+  width: 90%;
+  margin: 0 auto;
 }
 
-#indiaMap{
-    transition: .4s all;
+#closeBtn {
+  width: 30px;
+  height: 30px;
+  background-color: #666;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.progress_bar {
+  height: 6px;
+  width: 100%;
+  background-color: #aaa;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.progressed {
+  height: 6px;
+  background-color: #f80;
+  width: 0%;
+  transition: 0.1s width;
+  border-radius: 10px;
 }
 
-.cloud, .wind {
- animation: float 6s ease-in-out infinite;
+#indiaMap {
+  transition: 0.4s all;
 }
 
-#cloud1{
-    animation-delay: 100ms;
+.cloud,
+.wind {
+  animation: float 6s ease-in-out infinite;
 }
-#cloud2{
-    animation-delay: 200ms;
+
+#cloud1 {
+  animation-delay: 100ms;
 }
-#cloud3{
-    animation-delay: 300ms;
+#cloud2 {
+  animation-delay: 200ms;
 }
-#cloud4{
-    animation-delay: 400ms;
+#cloud3 {
+  animation-delay: 300ms;
+}
+#cloud4 {
+  animation-delay: 400ms;
 }
 
 @keyframes float {
-    0% {
-        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-        transform: translatey(0px);
-    }
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
 
-    50% {
-        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-        transform: translatey(-20px) translatex(20px);
-    }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px) translatex(20px);
+  }
 
-    100% {
-        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-        transform: translatey(0px);
-    }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .fourcorners img {
+    width: 20%;
+  }
+  .cover-content p {
+    width: 40%;
+  }
+  #indiaMap {
+    width: 30%;
+  }
+  .modelbox {
+    max-width: 300px;
+  }
 }
