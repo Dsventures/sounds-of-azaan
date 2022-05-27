@@ -1,5 +1,6 @@
 new fullpage("#fullpage", {
   licenseKey: "29D22B9D-244C4C74-87A11080-BE68FCC1",
+  normalScrollElements: ".modelbox__content",
 });
 
 var cities = document.getElementsByClassName("cities");
