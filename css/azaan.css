@@ -133,13 +133,13 @@
             margin: 0 0 -5px 0;
             font-size: 40px;
             line-height: 45px;
-            letter-spacing: 3px;
-            font-weight: 600;
+            letter-spacing: 0;
+            font-weight: 500;
 } 
 
 #stateName{
         font-family: 'Georama', sans-serif;
-            font-size: 18px;
+            font-size: 15px;
             margin: 10px 0 10px 0;
             color: #8f8f8f;
             text-transform: uppercase;
@@ -166,6 +166,25 @@
         text-align: left;
         line-height: 16px;
         padding-right: 5px;
+}
+
+.modelbox__content::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.modelbox__content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.modelbox__content::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.modelbox__content::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .audio__player{
