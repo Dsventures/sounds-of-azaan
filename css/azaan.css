@@ -17,16 +17,21 @@
     background-size: 45%;
 }
 
-.section:nth-child(2) .fourcorners{
-    top: 0;
-}
+
 
 .fourcorners{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: absolute;
     z-index: 1;
     margin-top: -100px;
+}
+
+.section:nth-child(1) .fourcorners {
+    top: 0; height: calc(100% - 100px);
+}
+.section:nth-child(2) .fourcorners {
+    top: 0; height: 100%;
 }
 .fourcorners img{
     width: 40%; position: absolute;
@@ -56,7 +61,7 @@
 #azaanCover{
     background-image: url("../img/cover-bg.jpg");
     /* height: 100%; */
-    height: calc(100% - 50px);
+    height: calc(100% - 100px);
     width: 100%;
     margin-top: -50px;
     background-size: 100%;
