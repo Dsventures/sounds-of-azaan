@@ -97,7 +97,7 @@
 }
 
 .map-content{
-    margin: 35px 20px 0 20px;
+    margin: 20px 20px 0 20px;
         position: relative;
         z-index: 2;
 }
@@ -182,7 +182,7 @@
 }
 
 .tv9-interactives .map-content p.body-copy{
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
 }
 .tv9-interactives .map-content p.body-copy:nth-child(2){
