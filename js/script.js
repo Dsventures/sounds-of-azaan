@@ -71,7 +71,7 @@ audio.ontimeupdate = function () {
 var dataset = {
   Hyderabad: {
     state: "Telangana",
-    zoom: "scale(2.5) translate(-25px, -58px)",
+    zoom: "scale(2) translate(-31px, -58px)",
     desc: '<p>"Come to prayer. Rise up to your welfare!" And in the last hours of darkness just before dawn: "Come to prayer. Rise up to your welfare. For prayer is better than sleep." The iftaar siren rings loud, it\'s time to break the fast. While the ones who were fasting grab a quick bite and rush to offer the evening prayer when they hear the azaan, a few wait for the azaan, to pray before they break their fast.</p><p>The entire office, a mixed bunch of 20-something year olds, waits eagerly for the maghrib azaan as well. You must wonder why. A girl at work waits until both the siren and the azaan are heard before she breaks her fast. A few colleagues wait until she finishes praying so all of them could eat together. Meanwhile, the boys quickly run to pray. There is usually a sense of urgency around. One would see a bubble of men rushing inside a mosque as soon as they hear the azaan. The late comers join in eventually. Once done, the same bubble of men comes out. One would then find some of them catching up with familiar faces, or you would find them discussing politics or how inflation is affecting even the price of chai in the city.</p>',
   },
   Mumbai: {
@@ -131,7 +131,7 @@ var dataset = {
   },
   Tenkasi: {
     state: "Tamil Nadu",
-    zoom: "scale(2.5) translate(-26px, -131px)",
+    zoom: "scale(1.7) translate(-44px, -131px)",
     desc: "<p>Being a small town kid, azaan was part of my everyday life while growing up. It's the wake up alarm for every household. You could see the men going to the mosque very early and the women praying at the house. My grandmother used to drag me out of the bed to perform the morning prayer.</p><p>The moment we hear the sound of the azaan, everyone at home stops talking and sits quietly till it's completed. I remember all the shop owners would close down the shop for the Friday prayers in my hometown, Tenkasi.</p><p>When Ramadan comes, it's even more special. My whole family would talk, play games between the shehri (food taken before fasting commences) and the first prayer of the day. And when it's time for iftar, all of us sit together to break fast, before praying. </p><p>After moving to Chennai, I hardly had the chance to hear the call of azaan in my neighbourhood, unlike my hometown. I was once driving down the main road, when I saw a big mosque and the azaan was playing — but life was moving for everyone. The sound of the azaan was interspersed with that of the traffic, honking and the general cacophony of a city. A completely different setting compared to what I was used to, growing up. </p><p>It was almost like a message: that life keeps moving. During Ramzan this year, I went to a nearby street with a mosque, and spotted a child wearing a cap as he was getting snacks and walking with his mom for the evening iftar. It was pure nostalgia for me.</p>",
   },
 };
