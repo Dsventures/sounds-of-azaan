@@ -80,7 +80,7 @@ var dataset = {
   Ahmedabad: {
     state: "Gujarat",
     zoom: "scale(2.5) translate(56px, 8px)",
-    desc: "",
+    desc: "<p>I am born and bred in Ahmedabad. Then the city was very different; I grew up at a time when Hindus and Muslims lived in harmony. While my friends would observe fast with me during Ramzaan, I would also celebrate Diwali, Holi, Navratri with equal vigour. Today so much has changed, or at least that's what we are made to believe. But, I am sure that kinship and brotherhood is still intact deep within our hearts irrespective of the physical distance.</p><p>This year, when the whole uproar over the azaan played on loudspeakers was at its high, I began to wonder how something as pure as the azaan could become a point of contention. The idea of the azaan is just to pass on the message of prayer, of namaaz. There is no underlying intent of disrespecting anyone, and those who do it with malice will only face the wrath of Allah. Azaan is a token of love, devotion, and nothing else. That's why I thought of bringing out that side of my city through Sidi Saiyyed Mosque, one of Ahmedabad's oldest mosques known across the world for its intricate 'jaali' (mesh) design. The mosque is situated right at the heart of the city. When the azaan is performed, anyone passing through the area can hear it and head to their homes for namaaz. The sound is not loud; it just mixes with the other ambient sounds and forms the soundscape that my city is known for - the sound of love.</p>",
   },
   Srinagar: {
     state: "Jammu and Kashmir",
@@ -95,7 +95,7 @@ var dataset = {
   Jaipur: {
     state: "Rajasthan",
     zoom: "scale(2.5) translate(47px, 8px)",
-    desc: "",
+    desc: '<p>I have spent my growing up years in several parts of this country, however, a major share of my childhood was spent in Fatehpur Shekhawati where there were many a mosque and whenever I would hear the azaan I would wonder where does the sound come from. I would sometimes think maybe someone plays a CD player every day. But one day when I went to a nearby mosque to offer iftaar, I noticed the muezzin performing the azaan in front of a box.</p><p>It is one of those two azaans that I will never forget in my life. After I came to Jaipur, the nearby mosque didn\'t have enough means to afford a muezzin, hence the duty of rendering the azaan lay on the shoulders of Bhuriya bhai. His house was right next to the mosque and since he worked from home he would easily perform the azaan on time. One day, I noticed he was asking around if there was someone who could take care of the azaan for a day as he had to step out for some work. I raised my hand and as he saw that he said, "Ah! Have you ever performed the azaan before, young boy?" When I nodded in denial he began to teach me the correct way of rendering the azaan and gave some very insightful lessons on the diction.</p><p>And then, the day finally arrived when I performed the azaan for the first time. It was the month of Ramzaan and I said on the mic, "It\'s time for iftaar, kindly break the fast," and then I began with the azaan. There were many houses near the mosque, and slowly one could hear all the sounds — from the kitchens, of the kids — fading away as the azaan resounded through the neighbourhood. As I was walking back home, in my head I found the answer to my first question: Who performs the azaan?</p>',
   },
   Delhi: {
     state: "Union Territory",
