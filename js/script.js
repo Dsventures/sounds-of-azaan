@@ -27,6 +27,7 @@ for (var i = 0; i < cities.length; i++) {
       "-01.png' style='width:100%' />";
     document.getElementById("indiaMap").style.transform =
       dataset[this.id]["zoom"];
+    document.getElementsByClassName("map-content")[0].style.zIndex = "1";
     document.getElementsByClassName("modelbox")[0].style.display = "block";
     playPause();
   });
@@ -35,6 +36,7 @@ document.getElementById("closeBtn").addEventListener("click", function () {
   for (var j = 0; j < cities.length; j++) {
     cities[j].style.display = "block";
   }
+  document.getElementsByClassName("map-content")[0].style.zIndex = "2";
   document.getElementsByClassName("modelbox")[0].style.display = "none";
   document.getElementById("indiaMap").style.transform =
     "scale(1) translate(0, 0)";

@@ -53,6 +53,39 @@
           <div id="azaanCover"></div>
         </div>
         <div class="section">
+          <div class="modelbox" style="display: none">
+            <div class="modelbox__container">
+              <button id="closeBtn">X</button>
+              <div class="audio__cover"></div>
+              <div class="progress_bar">
+                <div class="progressed" id="progressed"></div>
+              </div>
+              <div class="audio__player">
+                <div class="audio__title">
+                  <h3 id="cityName">Murshidabad</h3>
+                  <p id="stateName">Gujarat</p>
+                </div>
+                <button id="playAudio" onclick="playPause()">&#9658;</button>
+                <!-- <button id="resetAudio" onclick="stop()">&#9611;</button> -->
+              </div>
+              <audio id="audio">
+                <source
+                  src="https://dsventures.github.io/sounds-of-azaan/sound/Murshidabad.mp3"
+                  type="audio/mpeg"
+                />
+                Your browser does not support the audio element.
+              </audio>
+              <div class="modelbox__content">
+                "Come to prayer. Rise up to your welfare!" And in the last hours
+                of darkness just before dawn: "Come to prayer. Rise up to your
+                welfare. For prayer is better than sleep." The iftaar siren
+                rings loud, it's time to break the fast. While the ones who were
+                fasting grab a quick bite and rush to offer the evening prayer
+                when they hear the azaan, a few wait for the azaan, to pray
+                before they break their fast.
+              </div>
+            </div>
+          </div>
           <div class="map-content">
             <p class="body-copy">
               Click on each image to hear how Azaan sounds in 12 Indian cities.
@@ -61,40 +94,6 @@
               Alongside the azaan, what the recordings offer is a glimpse of the
               everyday life within which it is embedded.
             </p>
-
-            <div class="modelbox" style="display: none">
-              <div class="modelbox__container">
-                <button id="closeBtn">X</button>
-                <div class="audio__cover"></div>
-                <div class="progress_bar">
-                  <div class="progressed" id="progressed"></div>
-                </div>
-                <div class="audio__player">
-                  <div class="audio__title">
-                    <h3 id="cityName">Murshidabad</h3>
-                    <p id="stateName">Gujarat</p>
-                  </div>
-                  <button id="playAudio" onclick="playPause()">&#9658;</button>
-                  <!-- <button id="resetAudio" onclick="stop()">&#9611;</button> -->
-                </div>
-                <audio id="audio">
-                  <source
-                    src="https://dsventures.github.io/sounds-of-azaan/sound/Murshidabad.mp3"
-                    type="audio/mpeg"
-                  />
-                  Your browser does not support the audio element.
-                </audio>
-                <div class="modelbox__content">
-                  "Come to prayer. Rise up to your welfare!" And in the last
-                  hours of darkness just before dawn: "Come to prayer. Rise up
-                  to your welfare. For prayer is better than sleep." The iftaar
-                  siren rings loud, it's time to break the fast. While the ones
-                  who were fasting grab a quick bite and rush to offer the
-                  evening prayer when they hear the azaan, a few wait for the
-                  azaan, to pray before they break their fast.
-                </div>
-              </div>
-            </div>
 
             <svg
               version="1.1"
