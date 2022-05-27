@@ -301,9 +301,17 @@
     width: 40%;
   }
   #indiaMap {
-    width: 30%;
+    width: 24%;
   }
   .modelbox {
-    max-width: 300px;
+    max-width: 250px;
+  }
+  .audio__cover {
+    width: 150px;
+    height: 150px;
+  }
+  .modelbox {
+    margin-right: 430px;
+    margin-top: -38px;
   }
 }
