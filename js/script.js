@@ -25,6 +25,8 @@ for (var i = 0; i < cities.length; i++) {
       "<img src='https://dsventures.github.io/sounds-of-azaan/img/urdu/" +
       this.id +
       "-01.png' style='width:100%' />";
+    document.getElementById("bodyCopy1").style.display = "none";
+    document.getElementById("bodyCopy2").style.display = "none";
     document.getElementById("indiaMap").style.transform =
       dataset[this.id]["zoom"];
     document.getElementsByClassName("map-content")[0].style.zIndex = "1";
@@ -40,6 +42,8 @@ document.getElementById("closeBtn").addEventListener("click", function () {
   document.getElementsByClassName("modelbox")[0].style.display = "none";
   document.getElementById("indiaMap").style.transform =
     "scale(1) translate(0, 0)";
+  document.getElementById("bodyCopy1").style.display = "block";
+  document.getElementById("bodyCopy2").style.display = "block";
   stop();
 });
 
