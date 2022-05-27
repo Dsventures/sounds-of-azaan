@@ -28,7 +28,7 @@
 }
 
 .section:nth-child(1) .fourcorners {
-    top: 0; height: calc(100% - 100px);
+    top: 61px; height: calc(100% - 81px);
 }
 .section:nth-child(2) .fourcorners {
     top: 0; height: 100%;
