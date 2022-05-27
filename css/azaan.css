@@ -311,7 +311,7 @@
     height: 150px;
   }
   .modelbox {
-    margin-right: 430px;
+    min-height: 430px;
     margin-top: -38px;
   }
 }
