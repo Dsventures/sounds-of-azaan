@@ -130,6 +130,8 @@
   margin-top: -100px;
   z-index: 5;
   margin-left: 31px;
+  opacity: 0;
+  transition: 1s all;
 }
 
 .disclaimer {
@@ -217,6 +219,10 @@
   outline: none;
   border: none;
   font-size: 24px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 5px;
 }
 
 .tv9-interactives .map-content p.body-copy {
@@ -255,7 +261,7 @@
 }
 
 #indiaMap {
-  transition: 0.4s all;
+  transition: 1s all;
 }
 
 .cloud,

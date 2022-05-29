@@ -31,6 +31,7 @@ for (var i = 0; i < cities.length; i++) {
       dataset[this.id]["zoom"];
     document.getElementsByClassName("map-content")[0].style.zIndex = "1";
     document.getElementsByClassName("modelbox")[0].style.display = "block";
+    document.getElementsByClassName("modelbox")[0].style.opacity = 1;
     playPause();
   });
 }
