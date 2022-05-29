@@ -186,6 +186,7 @@
   text-align: left;
   line-height: 16px;
   padding-right: 5px;
+  margin-bottom: 10px;
 }
 
 .modelbox__content::-webkit-scrollbar {
