@@ -300,6 +300,14 @@
   }
 }
 
+.author-credits {
+  text-transform: uppercase;
+}
+
+.author-credits::before {
+  content: "By ";
+}
+
 @media (min-width: 1024px) {
   .fourcorners img {
     width: 20%;
