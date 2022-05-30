@@ -342,4 +342,16 @@
     background-image: url(../img/cover-bg.jpg);
     background-size: 20%;
   }
+  .map-content {
+    margin: 20px 20px 0 20px;
+    position: relative;
+    z-index: 2;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #azaanCover {
+    background-image: url("../img/cover-bg-desktop.jpg");
+  }
 }
