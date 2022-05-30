@@ -131,7 +131,7 @@
   z-index: 5;
   margin-left: 31px;
   opacity: 0;
-  transition: 1s all;
+  transition: 0.5s all;
 }
 
 .disclaimer {

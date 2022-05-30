@@ -29,10 +29,15 @@ for (var i = 0; i < cities.length; i++) {
     document.getElementById("bodyCopy2").style.display = "none";
     document.getElementById("indiaMap").style.transform =
       dataset[this.id]["zoom"];
-    document.getElementsByClassName("map-content")[0].style.zIndex = "1";
-    document.getElementsByClassName("modelbox")[0].style.display = "block";
-    document.getElementsByClassName("modelbox")[0].style.opacity = 1;
-    playPause();
+
+    setTimeout(function () {
+      document.getElementsByClassName("map-content")[0].style.zIndex = "1";
+      document.getElementsByClassName("modelbox")[0].style.visibility =
+        "visible";
+      // document.getElementsByClassName("modelbox")[0].style.display = "block";
+      document.getElementsByClassName("modelbox")[0].style.opacity = 1;
+      playPause();
+    }, 1000);
   });
 }
 document.getElementById("closeBtn").addEventListener("click", function () {
