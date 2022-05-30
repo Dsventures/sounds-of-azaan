@@ -349,5 +349,6 @@
 
   #azaanCover {
     background-image: url("../img/cover-bg-desktop.jpg");
+    background-size: contain;
   }
 }
