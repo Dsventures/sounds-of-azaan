@@ -270,6 +270,12 @@
   animation: float 6s ease-in-out infinite;
 }
 
+#bodyCopy1,
+#bodyCopy2,
+#disclaimer {
+  transition: 0.5s all;
+}
+
 #cloud1 {
   animation-delay: 100ms;
 }

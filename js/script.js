@@ -25,8 +25,9 @@ for (var i = 0; i < cities.length; i++) {
       "<img src='https://dsventures.github.io/sounds-of-azaan/img/urdu/" +
       this.id +
       "-01.png' style='width:100%' />";
-    document.getElementById("bodyCopy1").style.display = "none";
-    document.getElementById("bodyCopy2").style.display = "none";
+    document.getElementById("bodyCopy1").style.opacity = 0;
+    document.getElementById("bodyCopy2").style.opacity = 0;
+    document.getElementsByClassName("disclaimer")[0].style.opacity = 0;
     document.getElementById("indiaMap").style.transform =
       dataset[this.id]["zoom"];
 
@@ -37,7 +38,7 @@ for (var i = 0; i < cities.length; i++) {
       // document.getElementsByClassName("modelbox")[0].style.display = "block";
       document.getElementsByClassName("modelbox")[0].style.opacity = 1;
       playPause();
-    }, 1000);
+    }, 500);
   });
 }
 document.getElementById("closeBtn").addEventListener("click", function () {
@@ -45,11 +46,13 @@ document.getElementById("closeBtn").addEventListener("click", function () {
     cities[j].style.display = "block";
   }
   document.getElementsByClassName("map-content")[0].style.zIndex = "2";
-  document.getElementsByClassName("modelbox")[0].style.display = "none";
+  document.getElementsByClassName("modelbox")[0].style.visibility = "hidden";
+  document.getElementsByClassName("modelbox")[0].style.opacity = 0;
   document.getElementById("indiaMap").style.transform =
     "scale(1) translate(0, 0)";
-  document.getElementById("bodyCopy1").style.display = "block";
-  document.getElementById("bodyCopy2").style.display = "block";
+  document.getElementById("bodyCopy1").style.opacity = 1;
+  document.getElementById("bodyCopy2").style.opacity = 1;
+  document.getElementsByClassName("disclaimer")[0].style.opacity = 1;
   stop();
 });
 
