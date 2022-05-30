@@ -318,6 +318,9 @@
   .fourcorners img {
     width: 20%;
   }
+  .cover-content {
+    min-height: fit-content;
+  }
   .cover-content p {
     width: 40%;
   }
@@ -334,5 +337,9 @@
   .modelbox {
     min-height: 430px;
     margin-top: -80px;
+  }
+  #azaanCover {
+    background-image: url(../img/cover-bg.jpg);
+    background-size: 20%;
   }
 }
