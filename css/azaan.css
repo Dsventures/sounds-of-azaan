@@ -320,6 +320,7 @@
   }
   .cover-content {
     min-height: fit-content;
+    margin-top: -80px;
   }
   .cover-content p {
     width: 40%;
